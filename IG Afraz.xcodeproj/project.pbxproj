@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489C0927FDFC97EC2651E4FD /* Pods_IG_Afraz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E1C426EE61B9FCE09B86 /* Pods_IG_Afraz.framework */; };
+		A4AC76DF25017FD900E0227A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76DE25017FD900E0227A /* AppDelegate.swift */; };
+		A4AC76E125017FD900E0227A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76E025017FD900E0227A /* SceneDelegate.swift */; };
+		A4AC76E325017FD900E0227A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76E225017FD900E0227A /* HomeVC.swift */; };
+		A4AC76E625017FD900E0227A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AC76E425017FD900E0227A /* Main.storyboard */; };
+		A4AC76E825017FDD00E0227A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4AC76E725017FDD00E0227A /* Assets.xcassets */; };
+		A4AC76EB25017FDD00E0227A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AC76E925017FDD00E0227A /* LaunchScreen.storyboard */; };
+		A4AC76F725018A9800E0227A /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76F625018A9800E0227A /* ExploreVC.swift */; };
+		A4AC76F925018AAD00E0227A /* CamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76F825018AAD00E0227A /* CamVC.swift */; };
+		A4AC76FB25018AC100E0227A /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76FA25018AC100E0227A /* NotificationsVC.swift */; };
+		A4AC76FD25018AE700E0227A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76FC25018AE700E0227A /* ProfileVC.swift */; };
+		A4DEF5FF25018FC100CA177F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF5FE25018FC100CA177F /* LoginVC.swift */; };
+		A4DEF60125018FD600CA177F /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF60025018FD600CA177F /* SignupVC.swift */; };
+		A4DEF60325018FFA00CA177F /* PostDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF60225018FFA00CA177F /* PostDetailVC.swift */; };
+		A4DEF6052501900F00CA177F /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF6042501900F00CA177F /* EditProfileVC.swift */; };
+		A4DEF6072501902100CA177F /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF6062501902100CA177F /* SettingsVC.swift */; };
+		A4DEF6092501C4EE00CA177F /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF6082501C4EE00CA177F /* ListVC.swift */; };
+		A4DEF60B2501C51500CA177F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF60A2501C51500CA177F /* SearchVC.swift */; };
+		A4DEF60D2501C79E00CA177F /* SearchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF60C2501C79E00CA177F /* SearchResultVC.swift */; };
+		A4FB3ECD2503230A00D4D10C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4FB3ECC2503230A00D4D10C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB1F073FBEE73512556D213 /* Pods-IG Afraz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IG Afraz.debug.xcconfig"; path = "Target Support Files/Pods-IG Afraz/Pods-IG Afraz.debug.xcconfig"; sourceTree = "<group>"; };
+		4775E1C426EE61B9FCE09B86 /* Pods_IG_Afraz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IG_Afraz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1312F77D312AEF7767C086B /* Pods-IG Afraz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IG Afraz.release.xcconfig"; path = "Target Support Files/Pods-IG Afraz/Pods-IG Afraz.release.xcconfig"; sourceTree = "<group>"; };
+		A4AC76DB25017FD900E0227A /* IG Afraz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IG Afraz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AC76DE25017FD900E0227A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4AC76E025017FD900E0227A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4AC76E225017FD900E0227A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A4AC76E525017FD900E0227A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4AC76E725017FDD00E0227A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4AC76EA25017FDD00E0227A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4AC76EC25017FDD00E0227A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AC76F625018A9800E0227A /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		A4AC76F825018AAD00E0227A /* CamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamVC.swift; sourceTree = "<group>"; };
+		A4AC76FA25018AC100E0227A /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		A4AC76FC25018AE700E0227A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A4DEF5FE25018FC100CA177F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A4DEF60025018FD600CA177F /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		A4DEF60225018FFA00CA177F /* PostDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailVC.swift; sourceTree = "<group>"; };
+		A4DEF6042501900F00CA177F /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		A4DEF6062501902100CA177F /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		A4DEF6082501C4EE00CA177F /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		A4DEF60A2501C51500CA177F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		A4DEF60C2501C79E00CA177F /* SearchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultVC.swift; sourceTree = "<group>"; };
+		A4FB3ECC2503230A00D4D10C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AC76D825017FD900E0227A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489C0927FDFC97EC2651E4FD /* Pods_IG_Afraz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD35CE1519F7D748FCB05DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4775E1C426EE61B9FCE09B86 /* Pods_IG_Afraz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A643B6EE3998F3D921DFC10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB1F073FBEE73512556D213 /* Pods-IG Afraz.debug.xcconfig */,
+				A1312F77D312AEF7767C086B /* Pods-IG Afraz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4AC76D225017FD900E0227A = {
+			isa = PBXGroup;
+			children = (
+				A4AC76DD25017FD900E0227A /* IG Afraz */,
+				A4AC76DC25017FD900E0227A /* Products */,
+				4A643B6EE3998F3D921DFC10 /* Pods */,
+				2FD35CE1519F7D748FCB05DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AC76DC25017FD900E0227A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC76DB25017FD900E0227A /* IG Afraz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AC76DD25017FD900E0227A /* IG Afraz */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC76F52501890B00E0227A /* Models */,
+				A4AC76F42501871C00E0227A /* Views */,
+				A4AC76F32501870100E0227A /* Resources */,
+				A4AC76F22501832B00E0227A /* Controller */,
+				A4AC76EC25017FDD00E0227A /* Info.plist */,
+			);
+			path = "IG Afraz";
+			sourceTree = "<group>";
+		};
+		A4AC76F22501832B00E0227A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF5FC25018F8300CA177F /* Other */,
+				A4AC76FE25018E1E00E0227A /* Core Tabs */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4AC76F32501870100E0227A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB3ECC2503230A00D4D10C /* GoogleService-Info.plist */,
+				A4AC76DE25017FD900E0227A /* AppDelegate.swift */,
+				A4AC76E025017FD900E0227A /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4AC76F42501871C00E0227A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC76E425017FD900E0227A /* Main.storyboard */,
+				A4AC76E925017FDD00E0227A /* LaunchScreen.storyboard */,
+				A4AC76E725017FDD00E0227A /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4AC76F52501890B00E0227A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4AC76FE25018E1E00E0227A /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC76E225017FD900E0227A /* HomeVC.swift */,
+				A4AC76F625018A9800E0227A /* ExploreVC.swift */,
+				A4AC76F825018AAD00E0227A /* CamVC.swift */,
+				A4AC76FA25018AC100E0227A /* NotificationsVC.swift */,
+				A4AC76FC25018AE700E0227A /* ProfileVC.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		A4DEF5FC25018F8300CA177F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF5FD25018FA100CA177F /* Onboarding */,
+				A4DEF60225018FFA00CA177F /* PostDetailVC.swift */,
+				A4DEF6042501900F00CA177F /* EditProfileVC.swift */,
+				A4DEF6062501902100CA177F /* SettingsVC.swift */,
+				A4DEF6082501C4EE00CA177F /* ListVC.swift */,
+				A4DEF60A2501C51500CA177F /* SearchVC.swift */,
+				A4DEF60C2501C79E00CA177F /* SearchResultVC.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A4DEF5FD25018FA100CA177F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF5FE25018FC100CA177F /* LoginVC.swift */,
+				A4DEF60025018FD600CA177F /* SignupVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AC76DA25017FD900E0227A /* IG Afraz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AC76EF25017FDD00E0227A /* Build configuration list for PBXNativeTarget "IG Afraz" */;
+			buildPhases = (
+				D37F6DB85953C0C1C44EA63B /* [CP] Check Pods Manifest.lock */,
+				A4AC76D725017FD900E0227A /* Sources */,
+				A4AC76D825017FD900E0227A /* Frameworks */,
+				A4AC76D925017FD900E0227A /* Resources */,
+				35341C495AF1B0055A66F922 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IG Afraz";
+			productName = "IG Afraz";
+			productReference = A4AC76DB25017FD900E0227A /* IG Afraz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AC76D325017FD900E0227A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Matiny L";
+				TargetAttributes = {
+					A4AC76DA25017FD900E0227A = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = A4AC76D625017FD900E0227A /* Build configuration list for PBXProject "IG Afraz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4AC76D225017FD900E0227A;
+			productRefGroup = A4AC76DC25017FD900E0227A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AC76DA25017FD900E0227A /* IG Afraz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AC76D925017FD900E0227A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AC76EB25017FDD00E0227A /* LaunchScreen.storyboard in Resources */,
+				A4FB3ECD2503230A00D4D10C /* GoogleService-Info.plist in Resources */,
+				A4AC76E825017FDD00E0227A /* Assets.xcassets in Resources */,
+				A4AC76E625017FD900E0227A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35341C495AF1B0055A66F922 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IG Afraz/Pods-IG Afraz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IG Afraz/Pods-IG Afraz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IG Afraz/Pods-IG Afraz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37F6DB85953C0C1C44EA63B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IG Afraz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AC76D725017FD900E0227A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AC76E325017FD900E0227A /* HomeVC.swift in Sources */,
+				A4DEF6092501C4EE00CA177F /* ListVC.swift in Sources */,
+				A4AC76FB25018AC100E0227A /* NotificationsVC.swift in Sources */,
+				A4DEF5FF25018FC100CA177F /* LoginVC.swift in Sources */,
+				A4DEF60125018FD600CA177F /* SignupVC.swift in Sources */,
+				A4AC76FD25018AE700E0227A /* ProfileVC.swift in Sources */,
+				A4DEF60B2501C51500CA177F /* SearchVC.swift in Sources */,
+				A4DEF6072501902100CA177F /* SettingsVC.swift in Sources */,
+				A4AC76DF25017FD900E0227A /* AppDelegate.swift in Sources */,
+				A4DEF60D2501C79E00CA177F /* SearchResultVC.swift in Sources */,
+				A4AC76F725018A9800E0227A /* ExploreVC.swift in Sources */,
+				A4DEF60325018FFA00CA177F /* PostDetailVC.swift in Sources */,
+				A4AC76F925018AAD00E0227A /* CamVC.swift in Sources */,
+				A4AC76E125017FD900E0227A /* SceneDelegate.swift in Sources */,
+				A4DEF6052501900F00CA177F /* EditProfileVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4AC76E425017FD900E0227A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AC76E525017FD900E0227A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4AC76E925017FDD00E0227A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AC76EA25017FDD00E0227A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4AC76ED25017FDD00E0227A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4AC76EE25017FDD00E0227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4AC76F025017FDD00E0227A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB1F073FBEE73512556D213 /* Pods-IG Afraz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IG Afraz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matiny.IG-Afraz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4AC76F125017FDD00E0227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1312F77D312AEF7767C086B /* Pods-IG Afraz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IG Afraz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Matiny.IG-Afraz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AC76D625017FD900E0227A /* Build configuration list for PBXProject "IG Afraz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AC76ED25017FDD00E0227A /* Debug */,
+				A4AC76EE25017FDD00E0227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AC76EF25017FDD00E0227A /* Build configuration list for PBXNativeTarget "IG Afraz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AC76F025017FDD00E0227A /* Debug */,
+				A4AC76F125017FDD00E0227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AC76D325017FD900E0227A /* Project object */;
+}
