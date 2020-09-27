@@ -27,6 +27,7 @@ class HomeVC: UIViewController {
         if Auth.auth().currentUser == nil {
             // Show log in
             let loginVC = LoginVC()
+            // User can't swipe it away
             loginVC.modalPresentationStyle = .fullScreen
             present(loginVC, animated: false)
         }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		489C0927FDFC97EC2651E4FD /* Pods_IG_Afraz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4775E1C426EE61B9FCE09B86 /* Pods_IG_Afraz.framework */; };
+		A44D1300251FF3660069F3DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44D12FF251FF3660069F3DA /* Extensions.swift */; };
+		A482A6FF25183D0B00072F1C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482A6FE25183D0B00072F1C /* AuthManager.swift */; };
+		A482A70125183D5400072F1C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482A70025183D5400072F1C /* StorageManager.swift */; };
 		A4AC76DF25017FD900E0227A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76DE25017FD900E0227A /* AppDelegate.swift */; };
 		A4AC76E125017FD900E0227A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76E025017FD900E0227A /* SceneDelegate.swift */; };
 		A4AC76E325017FD900E0227A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76E225017FD900E0227A /* HomeVC.swift */; };
@@ -18,6 +21,7 @@
 		A4AC76F925018AAD00E0227A /* CamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76F825018AAD00E0227A /* CamVC.swift */; };
 		A4AC76FB25018AC100E0227A /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76FA25018AC100E0227A /* NotificationsVC.swift */; };
 		A4AC76FD25018AE700E0227A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC76FC25018AE700E0227A /* ProfileVC.swift */; };
+		A4C1D0AE25182F2A00195E4F /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1D0AD25182F2A00195E4F /* DatabaseManager.swift */; };
 		A4DEF5FF25018FC100CA177F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF5FE25018FC100CA177F /* LoginVC.swift */; };
 		A4DEF60125018FD600CA177F /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF60025018FD600CA177F /* SignupVC.swift */; };
 		A4DEF60325018FFA00CA177F /* PostDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF60225018FFA00CA177F /* PostDetailVC.swift */; };
@@ -33,6 +37,9 @@
 		0AB1F073FBEE73512556D213 /* Pods-IG Afraz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IG Afraz.debug.xcconfig"; path = "Target Support Files/Pods-IG Afraz/Pods-IG Afraz.debug.xcconfig"; sourceTree = "<group>"; };
 		4775E1C426EE61B9FCE09B86 /* Pods_IG_Afraz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IG_Afraz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1312F77D312AEF7767C086B /* Pods-IG Afraz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IG Afraz.release.xcconfig"; path = "Target Support Files/Pods-IG Afraz/Pods-IG Afraz.release.xcconfig"; sourceTree = "<group>"; };
+		A44D12FF251FF3660069F3DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A482A6FE25183D0B00072F1C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		A482A70025183D5400072F1C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		A4AC76DB25017FD900E0227A /* IG Afraz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IG Afraz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AC76DE25017FD900E0227A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4AC76E025017FD900E0227A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +52,7 @@
 		A4AC76F825018AAD00E0227A /* CamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamVC.swift; sourceTree = "<group>"; };
 		A4AC76FA25018AC100E0227A /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
 		A4AC76FC25018AE700E0227A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A4C1D0AD25182F2A00195E4F /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		A4DEF5FE25018FC100CA177F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A4DEF60025018FD600CA177F /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		A4DEF60225018FFA00CA177F /* PostDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailVC.swift; sourceTree = "<group>"; };
@@ -127,9 +135,13 @@
 		A4AC76F32501870100E0227A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A4C1D0AD25182F2A00195E4F /* DatabaseManager.swift */,
+				A482A70025183D5400072F1C /* StorageManager.swift */,
+				A482A6FE25183D0B00072F1C /* AuthManager.swift */,
 				A4FB3ECC2503230A00D4D10C /* GoogleService-Info.plist */,
 				A4AC76DE25017FD900E0227A /* AppDelegate.swift */,
 				A4AC76E025017FD900E0227A /* SceneDelegate.swift */,
+				A44D12FF251FF3660069F3DA /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,7 +178,7 @@
 		A4DEF5FC25018F8300CA177F /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A4DEF5FD25018FA100CA177F /* Onboarding */,
+				A4DEF5FD25018FA100CA177F /* User */,
 				A4DEF60225018FFA00CA177F /* PostDetailVC.swift */,
 				A4DEF6042501900F00CA177F /* EditProfileVC.swift */,
 				A4DEF6062501902100CA177F /* SettingsVC.swift */,
@@ -177,13 +189,13 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		A4DEF5FD25018FA100CA177F /* Onboarding */ = {
+		A4DEF5FD25018FA100CA177F /* User */ = {
 			isa = PBXGroup;
 			children = (
 				A4DEF5FE25018FC100CA177F /* LoginVC.swift */,
 				A4DEF60025018FD600CA177F /* SignupVC.swift */,
 			);
-			path = Onboarding;
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,12 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C1D0AE25182F2A00195E4F /* DatabaseManager.swift in Sources */,
 				A4AC76E325017FD900E0227A /* HomeVC.swift in Sources */,
 				A4DEF6092501C4EE00CA177F /* ListVC.swift in Sources */,
+				A482A70125183D5400072F1C /* StorageManager.swift in Sources */,
 				A4AC76FB25018AC100E0227A /* NotificationsVC.swift in Sources */,
 				A4DEF5FF25018FC100CA177F /* LoginVC.swift in Sources */,
 				A4DEF60125018FD600CA177F /* SignupVC.swift in Sources */,
+				A44D1300251FF3660069F3DA /* Extensions.swift in Sources */,
 				A4AC76FD25018AE700E0227A /* ProfileVC.swift in Sources */,
+				A482A6FF25183D0B00072F1C /* AuthManager.swift in Sources */,
 				A4DEF60B2501C51500CA177F /* SearchVC.swift in Sources */,
 				A4DEF6072501902100CA177F /* SettingsVC.swift in Sources */,
 				A4AC76DF25017FD900E0227A /* AppDelegate.swift in Sources */,
